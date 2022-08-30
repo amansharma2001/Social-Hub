@@ -89,3 +89,8 @@
     object-fit: cover;
     cursor: pointer;
 }
+
+.homepage{
+    text-decoration: none;
+    color: #ffffff;
+}

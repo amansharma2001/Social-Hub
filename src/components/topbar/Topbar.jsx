@@ -1,12 +1,20 @@
 import "./topbar.css";
 import {Search,Person,Chat,Notifications} from "@mui/icons-material";
-
+import { Link } from "react-router-dom";
+import DropDown from "../Dropdown/DropDown";
 
 export default function Topbar(){
+
+
+
     return (
         <div className="topbarContainer">
             <div className="topbarLeft">
-                <span className="logo">SocialHub</span>
+                <span className="logo">
+                <Link to="/" className="homepage">
+                        SocialHub
+                    </Link>
+                </span>
             </div>
             <div className="topbarCenter">
                 <div className="searchbar">
@@ -16,7 +24,12 @@ export default function Topbar(){
             </div>
             <div className="topbarRight">
                 <div className="topbarLinks">
-                    <span className="topbarLink">Homepage</span>
+                    <span className="topbarLink">
+                    <Link to="/" className="homepage">
+                        Homepage
+                    </Link>
+                        
+                    </span>
                     <span className="topbarLink">Timeline</span>
 
                 </div>
@@ -33,8 +46,11 @@ export default function Topbar(){
                         <Notifications/>
                         <span className="topbarIconBadge">1</span>
                     </div>
-                </div>
-                <img src="/assests/person/1.jpeg" alt="" className="topbarImg" />
+                </div>  
+                <Link to="/profile">
+            <img src="/assests/person/1.jpeg" alt="" className="topbarImg" />
+
+                </Link>
             </div>
         </div>
     )

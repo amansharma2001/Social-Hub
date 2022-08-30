@@ -1,0 +1,13 @@
+.topBarImg{
+    position: fixed;
+}
+
+.dropdown-menu:hover{
+    position: fixed;
+    background-color: gray;
+    
+}
+ul {
+    list-style-type: none;
+    
+    }
