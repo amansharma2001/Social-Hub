@@ -9,7 +9,7 @@ export default function Rightbar({ profile }) {
         <div className="birthdayContainer">
           <img className="birthdayImg" src="assests/gift.png" alt="" />
           <span className="birthdayText">
-            <b>Attri Sharma</b> and <b>3 other friends</b> have a birhday today.
+            <b>Attri Sharma</b> and <b>3 other friends</b> have a birthday today.
           </span>
         </div>
         <img className="rightbarAd" src="assests/ad.png" alt="" />
@@ -30,11 +30,11 @@ export default function Rightbar({ profile }) {
         <div className="rightbarInfo">
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">City:</span>
-            <span className="rightbarInfoValue">New York</span>
+            <span className="rightbarInfoValue">New Delhi</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">From:</span>
-            <span className="rightbarInfoValue">Madrid</span>
+            <span className="rightbarInfoValue">INDIA</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Relationship:</span>
@@ -49,7 +49,7 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Aman Sharma</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -57,7 +57,7 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Attri Sharma</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -65,7 +65,7 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Harsh Yadav</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -73,7 +73,7 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Nitish Jha</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -81,7 +81,7 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Arihant Dugar</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -89,7 +89,7 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Piyush Bachchan</span>
           </div>
         </div>
       </>
